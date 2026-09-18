@@ -91,3 +91,64 @@ El diseño de Motus se desarrolla considerando los siguientes principios:
 - **Prevención:** La interfaz debe destacar información que permita anticipar mantenimientos y posibles incidencias.
 - **Accesibilidad:** Los elementos deben utilizar textos legibles, contraste adecuado y etiquetas comprensibles.
 - **Eficiencia:** Las acciones frecuentes, como registrar kilometraje, completar un checklist o reportar una incidencia, deben realizarse mediante flujos simples y con la menor cantidad posible de pasos.
+### 4.1.2. Web Style Guidelines
+
+Las Web Style Guidelines de Motus establecen los criterios visuales y de interacción que se aplicarán tanto en la landing page como en la aplicación web responsiva. Su objetivo es mantener una experiencia consistente, intuitiva y adaptable a diferentes tamaños de pantalla.
+
+La interfaz seguirá un enfoque predominantemente claro y minimalista, utilizando espacios en blanco, jerarquías visuales definidas y componentes fácilmente reconocibles. Debido a que Motus será utilizado tanto por encargados de flota desde computadoras como por conductores desde dispositivos móviles, se priorizará un diseño responsive y una navegación sencilla.
+
+#### Navigation
+
+La navegación utilizará una estructura simple y fácilmente reconocible. En la landing page se empleará una barra de navegación horizontal en escritorio, mientras que en dispositivos móviles se adaptará a un menú compacto.
+
+El logotipo de Motus se ubicará en la parte izquierda de la navegación y los principales accesos se distribuirán de manera ordenada, destacando visualmente las acciones principales mediante el color Verde Motus.
+
+#### Buttons
+
+Los botones tendrán un diseño simple, bordes ligeramente redondeados y textos breves que indiquen claramente la acción que realizará el usuario.
+
+Se utilizarán tres variantes principales:
+
+- **Primary Button:** fondo Verde Motus (#27A67A) y texto blanco. Se utilizará para acciones principales.
+- **Secondary Button:** fondo blanco, borde Azul Motus (#1E4D6B) y texto del mismo color.
+- **Destructive Button:** color rojo (#E05252) para acciones que requieran especial atención, como eliminar o cancelar determinados registros.
+
+Los botones deberán presentar cambios visuales en estados como *hover*, *focus* y *disabled*, permitiendo que el usuario identifique fácilmente si un elemento es interactivo.
+
+#### Cards and Containers
+
+Las tarjetas se utilizarán para organizar información relacionada con vehículos, mantenimientos, incidencias, alertas y otros elementos relevantes del sistema.
+
+Estas utilizarán fondos blancos, bordes suaves, esquinas ligeramente redondeadas y sombras discretas. La información más importante deberá ocupar una posición visual destacada, evitando incorporar contenido innecesario dentro de una misma tarjeta.
+
+#### Forms and Inputs
+
+Los formularios mantendrán una estructura sencilla y ordenada. Cada campo contará con una etiqueta visible que indique claramente la información requerida.
+
+Los campos de entrada utilizarán fondos claros, bordes definidos y estados visuales diferenciados para indicar selección, error o deshabilitación. Los mensajes de validación serán breves y explicarán al usuario cómo corregir la información ingresada.
+
+En dispositivos móviles, los campos y controles tendrán dimensiones adecuadas para facilitar la interacción táctil.
+
+#### Alerts and Status
+
+Las alertas y estados utilizarán tanto colores como textos e iconos para comunicar su significado, evitando depender exclusivamente del color.
+
+- **Verde:** vehículo disponible o condición normal.
+- **Ámbar:** mantenimiento próximo o situación que requiere atención.
+- **Rojo:** incidencia crítica, mantenimiento vencido o vehículo inoperativo.
+
+Las alertas deberán presentar información breve y, cuando corresponda, indicar claramente la acción que puede realizar el usuario.
+
+#### Icons
+
+La iconografía mantendrá un estilo simple y consistente. Se utilizarán iconos reconocibles para representar acciones y conceptos como vehículos, mantenimiento, kilometraje, combustible, checklist, fotografías, notificaciones e incidencias.
+
+Siempre que sea necesario, los iconos estarán acompañados por etiquetas de texto para evitar ambigüedades.
+
+#### Responsive Design
+
+La interfaz de Motus seguirá un enfoque responsive que permita su correcta utilización en computadoras, tablets y dispositivos móviles.
+
+En pantallas pequeñas, los componentes se reorganizarán verticalmente, la navegación se simplificará y las acciones principales mantendrán un tamaño adecuado para la interacción táctil.
+
+Se priorizarán especialmente los flujos utilizados por los conductores, como el registro del odómetro, la realización del checklist pre-viaje y el reporte de incidencias, buscando reducir la cantidad de pasos necesarios para completar estas acciones.
