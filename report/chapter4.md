@@ -160,7 +160,7 @@ La organización de la información prioriza una navegación sencilla, etiquetas
 
 ### 4.2.1. Organization Systems
 
-Motus emplea principalmente un sistema de organización **jerárquico**, complementado con una organización **por audiencia y por tópicos**. Esta combinación permite estructurar el contenido según su importancia y separar las funcionalidades de acuerdo con las necesidades de los encargados de flota y los conductores.
+Motus emplea principalmente un sistema de organización jerárquico, complementado con una organización por audiencia y por tópicos. Esta combinación permite estructurar el contenido según su importancia y separar las funcionalidades de acuerdo con las necesidades de los encargados de flota y los conductores.
 
 #### Organización jerárquica
 
@@ -209,7 +209,7 @@ Las etiquetas principales de la aplicación se mantienen alineadas con los conce
 - **Registrar odómetro:** acción para ingresar el kilometraje actual del vehículo.
 - **Reportar incidencia:** acción para registrar una falla o anomalía detectada.
 
-En los botones se utilizarán etiquetas orientadas a acciones, como **Registrar**, **Guardar**, **Reportar**, **Programar**, **Ver detalle** o **Completar checklist**, permitiendo que el usuario pueda anticipar el resultado de cada interacción.
+En los botones se utilizarán etiquetas orientadas a acciones, como `Registrar`, `Guardar`, `Reportar`, `Programar`, `Ver detalle` o `Completar checklist`, permitiendo que el usuario pueda anticipar el resultado de cada interacción.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -250,7 +250,7 @@ Debido a que la landing page de Motus contiene una cantidad limitada de informac
 
 En la aplicación web, en cambio, los encargados de flota podrán gestionar una mayor cantidad de vehículos, mantenimientos e incidencias. Por este motivo, se contemplan mecanismos de búsqueda y filtrado que permitan localizar información de manera rápida.
 
-La búsqueda de vehículos podrá realizarse mediante datos como la **placa** o información identificativa de la unidad. Además, las vistas que contengan múltiples registros podrán incorporar filtros relacionados con:
+La búsqueda de vehículos podrá realizarse mediante datos como la placa o información identificativa de la unidad. Además, las vistas que contengan múltiples registros podrán incorporar filtros relacionados con:
 
 - Estado del vehículo.
 - Estado del mantenimiento.
