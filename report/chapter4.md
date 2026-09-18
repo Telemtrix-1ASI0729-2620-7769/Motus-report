@@ -24,8 +24,9 @@ El logotipo debe mantener sus proporciones originales y contar con suficiente es
 La paleta de colores de Motus combina principalmente tonalidades azules y verdes con fondos claros. El azul representa confianza, estabilidad y control, mientras que el verde se relaciona con movimiento, disponibilidad y prevención. Adicionalmente, se incorporan colores de estado que permiten comunicar visualmente advertencias e incidencias dentro de la plataforma.
 
 La siguiente paleta presenta los colores establecidos para la identidad visual de Motus:
-
+<p align="center">
 <img src="../assets/images/Motus-Color-Palette.png" alt="Motus Color Palette" width="700">
+</p>
 
 | Color | Código HEX | Aplicación |
 |---|---|---|
@@ -47,7 +48,7 @@ Motus utiliza **Inter** como tipografía principal debido a su legibilidad, simp
 La siguiente referencia visual establece la familia tipográfica y las principales jerarquías utilizadas por Motus:
 
 <p align="center">
-  <img src="images/chapter04/Motus-Typography.png" alt="Motus Typography" width="700">
+  <img src="../assets/images/Motus-Typography.png" alt="Motus Typography" width="700">
 </p>
 
 La jerarquía tipográfica se establece de la siguiente manera:
