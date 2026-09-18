@@ -153,7 +153,7 @@ Con un módulo de registro digital de odómetro y seguimiento de consumo de carb
 
 #### 1.2.2.4 Lean UX Canvas
 
-![LeanUXCanvas](images/chapter01/LeanUXCanvas.png)
+![LeanUXCanvas](../assets/images/LeanUXCanvas.png)
 
 
 ## 1.3 Segmentos objetivos
