@@ -25,7 +25,7 @@ La paleta de colores de Motus combina principalmente tonalidades azules y verdes
 
 La siguiente paleta presenta los colores establecidos para la identidad visual de Motus:
 <p align="center">
-<img src="../assets/images/Motus-Color-Palette.png" alt="Motus Color Palette" width="700">
+<img src="../assets/images/Motus-Color-Palette.png" alt="Motus Color Palette" width="900">
 </p>
 
 | Color | Código HEX | Aplicación |
