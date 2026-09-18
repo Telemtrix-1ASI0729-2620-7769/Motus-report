@@ -14,7 +14,7 @@ Motus es la solución digital desarrollada por Telemtrix para facilitar la gesti
 El logotipo de Motus constituye el principal identificador visual del producto. Su diseño integra el concepto de movimiento mediante la representación de una carretera dentro de la letra inicial de la marca, relacionando directamente la identidad del producto con la operación continua de los vehículos.
 
 <p align="center">
-  <img src="images/chapter04/Motus-Logo.png" alt="Motus Logo" width="600">
+  <img src="../assets/images/Motus-Logo.png" alt="Motus Logo" width="600">
 </p>
 
 El logotipo debe mantener sus proporciones originales y contar con suficiente espacio libre a su alrededor para conservar su legibilidad. Se priorizará su utilización sobre fondos blancos o de tonalidades claras.
@@ -25,9 +25,7 @@ La paleta de colores de Motus combina principalmente tonalidades azules y verdes
 
 La siguiente paleta presenta los colores establecidos para la identidad visual de Motus:
 
-<p align="center">
-  <img src="images/chapter04/Motus-Color-Palette.png" alt="Motus Color Palette" width="700">
-</p>
+<img src="../assets/images/Motus-Color-Palette.png" alt="Motus Color Palette" width="700">
 
 | Color | Código HEX | Aplicación |
 |---|---|---|
