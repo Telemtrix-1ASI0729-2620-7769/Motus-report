@@ -151,3 +151,168 @@ La interfaz de Motus seguirá un enfoque responsive que permita su correcta util
 En pantallas pequeñas, los componentes se reorganizarán verticalmente, la navegación se simplificará y las acciones principales mantendrán un tamaño adecuado para la interacción táctil.
 
 Se priorizarán especialmente los flujos utilizados por los conductores, como el registro del odómetro, la realización del checklist pre-viaje y el reporte de incidencias, buscando reducir la cantidad de pasos necesarios para completar estas acciones.
+
+## 4.2. Information Architecture
+
+La arquitectura de información de Motus se ha definido con el objetivo de organizar el contenido de manera clara y facilitar que los usuarios encuentren rápidamente la información que necesitan. La estructura considera tanto la landing page, orientada a presentar la propuesta de valor y las principales funcionalidades del producto, como la aplicación web, donde los usuarios realizan tareas relacionadas con la gestión y mantenimiento de los vehículos.
+
+La organización de la información prioriza una navegación sencilla, etiquetas comprensibles y una jerarquía que permita acceder rápidamente a las funcionalidades más importantes de acuerdo con las necesidades de cada tipo de usuario.
+
+### 4.2.1. Organization Systems
+
+Motus emplea principalmente un sistema de organización **jerárquico**, complementado con una organización **por audiencia y por tópicos**. Esta combinación permite estructurar el contenido según su importancia y separar las funcionalidades de acuerdo con las necesidades de los encargados de flota y los conductores.
+
+#### Organización jerárquica
+
+La información se distribuye desde contenidos generales hacia contenidos más específicos. En la landing page, el usuario comienza con una presentación general de Motus y posteriormente puede conocer sus beneficios, funcionalidades, funcionamiento y opciones de acceso.
+
+En la aplicación web, la información principal se presenta inicialmente mediante un dashboard que resume el estado de la flota. Desde este punto, el encargado de flota puede acceder a información más específica relacionada con vehículos, mantenimientos, incidencias, alertas e historiales.
+
+#### Organización por audiencia
+
+La estructura considera las necesidades de los dos principales segmentos de usuario:
+
+- **Encargados de flota:** requieren acceder principalmente al estado general de los vehículos, mantenimientos, alertas, incidencias e historial técnico.
+- **Conductores:** requieren accesos rápidos al vehículo asignado, registro de odómetro, checklist pre-viaje y reporte de incidencias.
+
+Esta separación permite priorizar las funcionalidades más relevantes para cada usuario y evitar mostrar información innecesaria durante sus tareas habituales.
+
+#### Organización por tópicos
+
+Las funcionalidades se agrupan de acuerdo con el tipo de información que representan. Los principales tópicos considerados son:
+
+- Vehículos
+- Mantenimiento
+- Checklists
+- Incidencias
+- Alertas
+- Historial técnico
+- Odómetro y combustible
+- Gestión de la flota
+
+Esta organización permite que los usuarios relacionen cada sección con una actividad específica y encuentren la información de forma predecible.
+
+### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de Motus utiliza términos breves, descriptivos y relacionados directamente con las actividades que realizan los usuarios. Se evita el uso de términos técnicos innecesarios para facilitar la comprensión tanto de los encargados de flota como de los conductores.
+
+Las etiquetas principales de la aplicación se mantienen alineadas con los conceptos utilizados dentro del dominio de Motus. Entre las principales se encuentran:
+
+- **Inicio:** acceso a la vista principal o dashboard.
+- **Vehículos:** consulta y gestión de las unidades registradas.
+- **Mantenimientos:** planificación y seguimiento del mantenimiento de los vehículos.
+- **Checklists:** registro y consulta de las inspecciones pre-viaje.
+- **Incidencias:** registro y seguimiento de fallas o problemas detectados.
+- **Alertas:** visualización de mantenimientos próximos, vencidos u otras situaciones que requieren atención.
+- **Historial:** consulta de mantenimientos, inspecciones e incidencias registradas.
+- **Mi vehículo:** acceso del conductor a la información de la unidad que tiene asignada.
+- **Registrar odómetro:** acción para ingresar el kilometraje actual del vehículo.
+- **Reportar incidencia:** acción para registrar una falla o anomalía detectada.
+
+En los botones se utilizarán etiquetas orientadas a acciones, como **Registrar**, **Guardar**, **Reportar**, **Programar**, **Ver detalle** o **Completar checklist**, permitiendo que el usuario pueda anticipar el resultado de cada interacción.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+La landing page de Motus utilizará etiquetas SEO y metadatos que permitan describir correctamente el producto para los motores de búsqueda y facilitar su identificación por potenciales usuarios interesados en soluciones para gestión y mantenimiento de flotas.
+
+Se establecen inicialmente los siguientes metadatos:
+
+| Meta Tag | Contenido |
+|---|---|
+| **Title** | Motus - Gestión y mantenimiento preventivo de flotas |
+| **Description** | Motus facilita la gestión de flotas de carga ligera mediante mantenimiento preventivo, control de kilometraje, checklists, alertas y reporte de incidencias. |
+| **Keywords** | gestión de flotas, mantenimiento preventivo, flotas de vehículos, mantenimiento vehicular, control de kilometraje, logística, Motus |
+| **Author** | Telemtrix |
+
+Su implementación en la landing page seguirá una estructura similar a la siguiente:
+
+```html
+<title>Motus - Gestión y mantenimiento preventivo de flotas</title>
+
+<meta
+  name="description"
+  content="Motus facilita la gestión de flotas de carga ligera mediante mantenimiento preventivo, control de kilometraje, checklists, alertas y reporte de incidencias."
+>
+
+<meta
+  name="keywords"
+  content="gestión de flotas, mantenimiento preventivo, flotas de vehículos, mantenimiento vehicular, control de kilometraje, logística, Motus"
+>
+
+<meta name="author" content="Telemtrix">
+```
+
+Estos metadatos buscan representar de manera directa el propósito del producto y mantener coherencia entre el contenido presentado en la landing page y los términos relacionados con su propuesta de valor.
+
+### 4.2.4. Searching Systems
+
+Debido a que la landing page de Motus contiene una cantidad limitada de información y utiliza una estructura de navegación directa por secciones, no se considera necesario implementar un buscador dentro de esta página.
+
+En la aplicación web, en cambio, los encargados de flota podrán gestionar una mayor cantidad de vehículos, mantenimientos e incidencias. Por este motivo, se contemplan mecanismos de búsqueda y filtrado que permitan localizar información de manera rápida.
+
+La búsqueda de vehículos podrá realizarse mediante datos como la **placa** o información identificativa de la unidad. Además, las vistas que contengan múltiples registros podrán incorporar filtros relacionados con:
+
+- Estado del vehículo.
+- Estado del mantenimiento.
+- Fecha.
+- Tipo de incidencia.
+- Mantenimientos próximos o vencidos.
+
+Los resultados se presentarán mediante listas, tablas o tarjetas según el tipo de información consultada. Los filtros activos deberán ser visibles y podrán eliminarse fácilmente para regresar a la vista completa de los registros.
+
+En el caso de los conductores, se priorizará el acceso directo a las funciones relacionadas con su vehículo asignado en lugar de implementar sistemas de búsqueda complejos.
+
+### 4.2.5. Navigation Systems
+
+El sistema de navegación de Motus se ha diseñado para permitir que los usuarios accedan de manera sencilla a las principales secciones de la landing page y de la aplicación web. La estructura de navegación mantiene una organización jerárquica y adapta las opciones disponibles de acuerdo con el tipo de usuario.
+
+#### Navegación de la Landing Page
+
+La landing page utiliza una navegación lineal mediante una barra superior que permite desplazarse directamente hacia las principales secciones de la página:
+
+- Inicio
+- Beneficios
+- Funcionalidades
+- Cómo funciona
+- Para quién es
+- Contacto
+- Iniciar sesión
+
+El recorrido principal sigue la secuencia:
+
+**Inicio → Beneficios → Funcionalidades → Cómo funciona → Para quién es → Contacto**
+
+#### Navegación de la Aplicación Web
+
+Después de iniciar sesión, la navegación se adapta al rol del usuario.
+
+Para el **Encargado de Flota**, las principales opciones son:
+
+- Dashboard
+- Vehículos
+- Mantenimientos
+- Incidencias
+- Alertas
+- Historial
+- Configuración
+
+Desde la sección Vehículos, el encargado puede seleccionar una unidad y consultar información específica relacionada con su estado, kilometraje, mantenimientos, incidencias e historial técnico.
+
+Para el **Conductor**, la navegación se simplifica y prioriza las tareas operativas realizadas con mayor frecuencia:
+
+- Inicio
+- Mi vehículo
+- Registrar odómetro
+- Checklist pre-viaje
+- Reportar incidencia
+- Historial
+
+En dispositivos móviles, estas opciones se adaptarán a una navegación compacta para facilitar el acceso a las principales funciones.
+
+#### Navigation System
+
+El siguiente mapa representa la estructura de navegación propuesta para Motus y las principales rutas disponibles para los visitantes, encargados de flota y conductores.
+
+<p align="center">
+  <img src="images/chapter04/Motus-Navigation-System.png" alt="Motus Navigation System" width="900">
+</p>
