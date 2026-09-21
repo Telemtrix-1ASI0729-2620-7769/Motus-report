@@ -163,7 +163,7 @@ Para asegurar que el código en Java siga los principios de Domain-Driven Design
 La landing page del proyecto se ha desplegado utilizando GitHub Pages, lo que permite alojar el sitio web de manera gratuita y sencilla directamente desde el repositorio de GitHub:
 
 
-Ruta de referencia: https://github.com/orgs/Telemtrix-1ASI0729-2620-7769/repositories
+Ruta de referencia: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/ 
 
 #### Web Application Deployment
 
