@@ -12,12 +12,18 @@ El servicio consiste en un software SaaS que integra la supervisión directa y l
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-| **Integrante** | **Santiago Israel Echevarria Lizana** |
-|----------------|----------------------------------|
-| **Código del Estudiante** | u20241g014 |
-| **Carrera** | Ingeniería de Software |
-| **Descripción** | Estudiante de Ingeniería de Software. Busca desarrollar nuevas habilidades y ampliar conocimiento en el área de desarrollo web, con conocimientos de C++, HTML, CSS. |
-| **Foto** | |
+| **Integrante** | **Santiago Israel Echevarria Lizana**                                                                                                                                                                                                                                                                                                               |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Código del Estudiante** | u20241g014                                                                                                                                                                                                                                                                                                                                          |
+| **Carrera** | Ingeniería de Software                                                                                                                                                                                                                                                                                                                              |
+| **Descripción** | Estudiante de Ingeniería de Software. Busca desarrollar nuevas habilidades y ampliar conocimiento en el área de desarrollo web, con conocimientos de C++, HTML, CSS.                                                                                                                                                                                |
+| **Foto** |                                                                                                                                                                                                                                                                                                                                                     |
+| **Integrante** | **Alejandro Franklin Mendoza Vergara**                                                                                                                                                                                                                                                                                                              |
+|----------------| ----------------------------------                                                                                                                                                                                                                                                                                                                  |
+| **Código del Estudiante** | u202312343                                                                                                                                                                                                                                                                                                                                          |
+| **Carrera** | Ingeniería de Software                                                                                                                                                                                                                                                                                                                              |
+| **Descripción** | Mi nombre es Alejandro Mendoza y soy estudiante de la carrera de Ingeniería de Software. Actualmente tengo experiencia en C++ y Python. Estoy interesado en seguir aprendiendo sobre diferentes lenguajes de programación y en la creación de distintas aplicaciones web y móviles, por lo que intento dar todo de mí para tener buenos resultados. 
+| **Foto** | ![Foto](../assets/images/alejandro.png)                                                                                                                                                                                                                                                                                                             |
 
 ---
 
